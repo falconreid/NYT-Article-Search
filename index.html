@@ -12,17 +12,13 @@
     <title>New York Times Article API Reader</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-color:;">
       <div class="container">
-        <h1 class="display-4" style="text-align: center;">Fluid jumbotron</h1>
-        <p class="lead" style="text-align: center;">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
+        <h1 class="display-4" style="text-align: center;">New York Times Search</h1>
       </div>
     </div>
 
-    <div class="alert alert-secondary" role="alert">
+    <div class="alert alert-secondary" role="alert" style="font-weight: bolder;">
       Search Parameters
     </div>
 
@@ -44,7 +40,7 @@
 
     <!--Number of Records-->
 
-    <div class="input-group">
+    <div class="input-group" id="numberOfRecords">
       <select
         class="custom-select"
         id="inputGroupSelect04"
@@ -93,11 +89,23 @@
     <!--Buttons-->
 
     <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Search</button>
+      <button type="button" class="btn btn-secondary" id ="searchBtn">Search</button>
     </div>
 
     <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Clear Results</button>
+      <button type="button" class="btn btn-secondary" id ="clearResults">Clear Results</button>
     </div>
+
+    <!--Result Section-->
+    <br>
+    <br>
+    <div class="alert alert-secondary" role="alert" style="font-weight: bolder;">
+      Top Articles
+      <div>
+        
+      </div>
+    
+    </div>
+
   </body>
 </html>
