@@ -1,3 +1,14 @@
 .container {
   margin: 10px;
 }
+
+.jumbotron,
+.alert,
+.input-group-prepend,
+.input-group-text,
+#searchBtn,
+#clearResults {
+  background-color: #253257;
+  color: #fff;
+  border-radius: 10px;
+}
